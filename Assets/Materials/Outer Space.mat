@@ -54,6 +54,6 @@ Material:
     - _PixelSize: 3
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Star_Density: -0.05
+    - _Star_Density: -0.06
     m_Colors: []
   m_BuildTextureStacks: []
