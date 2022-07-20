@@ -12,7 +12,8 @@ public class CastShadow : MonoBehaviour
         {
             shadow.gameObject.SetActive(true);
             shadow.position = hit.point;
-            shadow.forward = hit.normal;
+            //shadow.forward = hit.normal;
+            shadow.rotation = Quaternion.LookRotation(hit.normal, Vector3.up);
         }
         else
         {
