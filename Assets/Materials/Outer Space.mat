@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Skybox
+  m_Name: Outer Space
   m_Shader: {fileID: -6465566751694194690, guid: e1053da1ef23f244cbd2cc7ecb179699, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -54,6 +54,6 @@ Material:
     - _PixelSize: 3
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Star_Density: -0.04
+    - _Star_Density: -0.05
     m_Colors: []
   m_BuildTextureStacks: []

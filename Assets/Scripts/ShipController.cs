@@ -31,8 +31,10 @@ public class ShipController : MonoBehaviour
     {
         if (fuel <= 0f) return;
         
-        var input = Mouse.current.position.ReadValue();
+        Vector3 input = Mouse.current.position.ReadValue();
+        input.z = shipCamera.nearClipPlane;
         var mousePos = shipCamera.ScreenToWorldPoint(input);
+        mousePos.z = 0;
         var dir = mousePos - transform.position;
         var angle = Vector2.SignedAngle(Vector2.right, dir);
 
